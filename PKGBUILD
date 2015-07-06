@@ -30,3 +30,4 @@ package() {
     ln -s "${srcdir}"/${pkgname}/opt/style50/bin/style50 "${pkgdir}"/usr/bin/style50
     #fix file permissions
     chmod u+x,g+x,o+x "${pkgdir}"/usr/bin/style50
+    }
